@@ -1,0 +1,408 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background: #f6f6f6;
+}
+img{max-width: 100%;}
+a, a:hover, a:focus{text-decoration: none;}
+
+.form-container
+{
+	width:480px;
+	margin: auto;
+}
+.form_main_box_white
+{
+	background: #fff;
+    border-radius: 10px;
+    border: 1px solid #d2d6d7;
+	padding: 30px;
+	margin: 30px 0;
+}
+.head_main_title
+{
+	padding: 15px 0;
+	color:#505659;
+	text-align: center;
+	font-size: 45px;
+	line-height: 50px;
+}
+.main_form_box .form-group label
+{
+	color:#505659;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 23px;
+}
+.main_form_box .form-group .form-control
+{
+	color:#505659;
+	font-weight: 600;
+	border: 1px solid #b3b3b3;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 23px;
+	height: 40px;
+}
+.main_form_box .form-group select.form-control
+{
+	height: auto;
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../img/select_icn.png), url(../img/select_true_icn.png);
+    background-repeat: no-repeat;
+    background-position: 98%, 2%;
+	padding: 8px 40px 8px 50px;
+	font-size: 14px;
+	line-height: 23px;
+	height: 40px;
+}
+.main_form_box .form-group .form-control:focus
+{
+	border: 1px solid #0085f9;
+}
+::placeholder {font-weight: 400;}
+:-ms-input-placeholder {font-weight: 400;}
+::-ms-input-placeholder {font-weight: 400;}
+h2.sub_title
+{
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color:#505659;
+	padding: 10px 0 16px;
+	font-weight: 700;
+	margin: 0;
+}
+.shipping_title
+{
+	font-size: 24px;
+	line-height: 28px;
+	color:#0086fa;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 0 30px;
+
+}
+.shipping_title img{margin: -3px 9px 0 0;}
+.cash_title
+{
+	font-size: 24px;
+	line-height: 28px;
+	color:#1bc10e;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 0 20px;
+
+}
+.cash_title img{margin: -9px 9px 0 0;}
+.product_img_box
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.Credit_card_input label{display: block;}
+.Credit_card_input input.form-control.card_1
+{
+	width: 80%;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    background-image: url(../img/credit_icn.png);
+    background-repeat: no-repeat;
+    background-position: 11px 12px;
+    padding-left: 50px;
+}
+.Credit_card_input input.form-control.card_2
+{
+	width: 20%;
+    float: right;
+    border-left: none;
+    border-radius: 0 5px 5px 0px;
+	text-align: right;
+	padding-right: 20px;
+}
+.payment_img{margin-bottom: 35px;}
+
+.chk_box .container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 10px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-weight: 600;
+	color:#505659;
+	max-width: 100% !important;
+  }
+  .chk_box .container a, .chk_box .container a:hover
+  {
+	  color:#0086fa;
+  }
+  /* Hide the browser's default checkbox */
+  .chk_box .container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .chk_box .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border: 1px solid #505659;
+	border-radius: 3px;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .chk_box .container:hover input ~ .checkmark {
+	background-color: #fff;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .chk_box .container input:checked ~ .checkmark {
+	background-color: #2196F3;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .chk_box .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .chk_box .container input:checked ~ .checkmark:after {
+	display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .chk_box .container .checkmark:after {
+	left: 4px;
+    top: 2px;
+    width: 5px;
+    height: 9px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+  .spacer10
+  {
+	  height: 10px;
+	  clear: both;
+  }
+  .sub_btn_orange
+  {
+	  display: block;
+	  width: 100%;
+	  font-size: 20px;
+	  line-height: 27px;
+	  color:#1d1d1b;
+	  text-align: center;
+	  border: 1px solid #1d1d1b;
+	  border-radius: 5px;
+	  background: #edbb4e;
+	  padding: 12px;
+	  font-weight: 700;
+	  margin-top: 40px;
+  }
+  .arrow_down
+  {
+	  text-align: center;
+	  padding: 10px 0 10px;
+  }
+  .was-validated .form-control:invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .custom-select.is-invalid {
+    border-color: #dc3545 !important;
+}
+button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.clearfix {
+    clear: both;
+}
+[type = radio] {
+	Position: Absolute;
+	left: -9999px;
+	visibility: hidden;
+}
+#card-element
+{
+	border: 1px solid #b3b3b3;
+    height: auto;
+    padding: 14px 10px;
+}
+#card-errors
+{
+	font-size: 13px;
+    color: #dc3545;
+    position: relative;
+    top: -10px;
+}
+#card-element.StripeElement--invalid
+{
+	border-color:#dc3545 ;
+}
+.credit_txt
+{
+	color: #505659;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+@media only screen and (min-width:1024px) and (max-width:1279px)
+{
+	body{background: #fff;}
+	.form_main_box_white{margin: 0;border-radius: 0;}
+	.form-container{width: 100%;}
+}
+@media only screen and (min-width:768px) and (max-width:979px)
+{
+	body{background: #fff;}
+	.form_main_box_white{margin: 0;border-radius: 0;}
+	.form-container{width: 100%;}
+	.Credit_card_input input.form-control.card_1{width:65%;}
+	.Credit_card_input input.form-control.card_2{width:35%;}
+}
+@media only screen and (max-width:767px)
+{
+	body{background: #fff;}
+	.form_main_box_white{margin: 0;border-radius: 0;padding: 20px;}
+	.form-container{width: 100%;}
+	.main_form_box .form-group select.form-control{background-position: 95%, 2%;padding: 10px 40px 10px 40px;}
+	.Credit_card_input input.form-control.card_1{width:65%;}
+	.Credit_card_input input.form-control.card_2{width:35%;}
+	.cash_title, .shipping_title{font-size: 19px;}
+	.sub_btn_orange{font-size: 20px;}
+}
+
+.cash_camion{
+	display: grid;
+	grid-template-columns: 30% 45px auto 20%;
+}
+
+.grid-img{
+	grid-column-start: 2;
+	align-self: center;
+}
+
+.grid-img-lock{
+	grid-column-start: 2;
+	align-self: center;
+	padding-left: 10px;
+}
+
+.grid-title{
+	align-self: center;
+}
+
+/*checkbox*/
+
+.form-checkbox {
+	align-items: center;
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	column-gap: 10px;
+	padding: 0;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-self: flex-start;
+}
+
+.form-checkbox-text,
+.form-checkbox-link {
+	color: #9c9c9c;
+	font-size: 14px;
+}
+
+.form-checkbox-link {
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+/* TIMER */
+
+.time-block {
+	margin-bottom: 20px;
+}
+
+.time-title {
+	margin-bottom: 15px;
+	font-size: 32px;
+}
+
+.time-remain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 300;
+  text-transform: uppercase;
+	color: #82027e;
+}
+
+.time-remain-items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+	font-size: 32px;
+}
+
+.time-text {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.time-dots {
+	font-size: 32px;
+}
+
+/* PRICE */
+.price {
+	display: flex;
+	justify-content: space-between;
+	max-width: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #82027e;
+}
+
+.price .wv_currency {
+	margin-left: -5px;
+}
+
+.old-price {
+	color: #000;
+	text-decoration: line-through;
+}
